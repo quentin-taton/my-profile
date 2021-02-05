@@ -1,0 +1,160 @@
+body{
+	background-color: #d3e0ea;
+	color: #276678;
+	font-family: Roboto, serif;
+	font-size: 16px;
+}
+
+h1,h2 {
+	font-family: Lora, sans-serif;
+}
+
+h1{
+	background-color:rgb(250,250,250);
+	color: #1687A7;
+	font-size: 32px;
+	padding:15px;
+	border-radius:4px;
+}
+ h1 p {
+ 	border-radius:4px;
+ }
+h2{
+	color:#1687A7;	
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: Lora, sans-serif;
+	text-decoration: none;
+	color:#1687a7;
+}
+a:hover {
+	color:black;
+}
+.img-circle {
+	border-radius:50%;
+}
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-width:750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color:#f6f5f5;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+
+.list-horizontal {
+	list-style: none;
+	padding-left:0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	
+}
+
+#introduction p {
+	background-color:rgb(250,250,250);
+	padding:10px;
+	text-align: justify;
+	text-justify:auto;
+
+}
+
+.btn-red {
+	background:#1687a7;
+	color:white;
+	padding:5px;
+}
+
+.btn-red:hover {
+	background-color:#d3e0ea;
+	color:black;
+	padding:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color:#1687a7;
+}
+.popup:hover{
+	color:black;
+	font-size:18px;
+}
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgb(250,250,250);
+  color: rgb(30,30,30);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
